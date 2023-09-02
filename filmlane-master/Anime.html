@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmlane - Best movie collections</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.svg" alt="Filmlane logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">AU</option>
+            <option value="ar">AR</option>
+            <option value="tu">TU</option>
+          </select>
+        </div>
+        <a href="./Signin.html">
+          <button class="btn btn-primary" >Sign in</button>
+        </a>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./Movie.html" class="navbar-link">Movie</a>
+          </li>
+
+          <li>
+            <a href="./Tvshow.html" class="navbar-link">Tv Show</a>
+          </li>
+
+          <li>
+            <a href="./Webseries.html" class="navbar-link">Web Series</a>
+          </li>
+
+          <li>
+            <a href="./Pricing.html" class="navbar-link">Pricing</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+    
+
+
+
+
+      <!-- 
+        - #UPCOMING
+      -->
+
+      <section class="upcoming">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+              <p class="section-subtitle">Online Streaming</p>
+
+              <h2 class="h2 section-title">Upcoming Anime</h2>
+            </div>
+
+            <ul class="filter-list">
+
+              <li>
+                <button class="filter-btn">Movies</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">TV Shows</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">Anime</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="movies-list  has-scrollbar">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Attackontitan.jpg" alt="Attackontitan poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Attack On Titan</h3>
+                  </a>
+
+                  <time datetime="2022">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">NA</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/demonslayer.jpg"
+                      alt="Doctor Strange in the Multiverse of Madness movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Demon Slayer</h3>
+                  </a>
+
+                  <time datetime="2022">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">NA</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">NA</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/chainsaw-man-vol-1.jpg" alt="chainsaw man poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Chainsaw Man</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="">N/A</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/jujutsukaisen.jpg"
+                      alt="jujutsukaisen poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Jujutsu Kaisen</h3>
+                  </a>
+
+                  <time datetime="2022">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT107M">N/A</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
+
+      <!-- 
+        - #TOP RATED
+      -->
+
+      <section class="top-rated">
+        <div class="container">
+
+          <p class="section-subtitle">Online Streaming</p>
+
+          <h2 class="h2 section-title">Top Rated Anime</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn">Movies</button>
+            </li>
+
+            <li>
+              <button class="filter-btn"><a href="C:\Users\ayush\Downloads\filmlane-master\filmlane-master\Tvshow.html" style="color: white">TV Shows</a></button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Documentary</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Sports</button>
+            </li>
+
+          </ul>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/One_Piece,_Volume_61_Cover_(Japanese).jpg" alt="onepiece poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">One Piece</h3>
+                  </a>
+
+                  <time datetime="2022">1999</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">SSeason 1 Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Naruto.jpg" alt="Naruto poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Naruto</h3>
+                  </a>
+
+                  <time datetime="2022">2003</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT104M">Season 1 Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/DEATH_NOTE_anime.webp" alt="Deathnote poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">DeathNote</h3>
+                  </a>
+
+                  <time datetime="2022">2006</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT106M">Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/attackontitans.jpg" alt="aot poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Attack On Titans</h3>
+                  </a>
+
+                  <time datetime="2021">2013</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT115M">Season 1 Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Bleach_cover_01.jpg" alt="bleach poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Bleach</h3>
+                  </a>
+
+                  <time datetime="2022">2002</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT176M">Season 1 Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Juju.jpg" alt="jujutsukaisen poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Jujutsu Kaisen</h3>
+                  </a>
+
+                  <time datetime="2022">2020</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT116M">Season 1 Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Dororo.jpg" alt="Dororo poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Dororo</h3>
+                  </a>
+
+                  <time datetime="2022">2019</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT127M">Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./anime-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/evangelion.jpg" alt="Evangelion poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./anime-details.html">
+                    <h3 class="card-title">Evangelion</h3>
+                  </a>
+
+                  <time datetime="2021">1998</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT131M">Episode 1</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="cta-title">Trial start first 30 days.</h2>
+
+            <p class="cta-text">
+              Enter your email to create or restart your membership.
+            </p>
+          </div>
+
+          <form action="" class="cta-form">
+            <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+
+            <button type="submit" class="cta-form-btn">Get started</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./Movie.html" class="footer-link">Movie</a>
+            </li>
+
+            <li>
+              <a href="./Tvshow.html" class="footer-link">TV Show</a>
+            </li>
+
+            <li>
+              <a href="./Webseries.html" class="footer-link">Web Series</a>
+            </li>
+
+            <li>
+              <a href="./Pricing.html" class="footer-link">Pricing</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">Gyan Sarowar</a>. All Rights Reserved
+        </p>
+
+        <img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo" class="footer-bottom-img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
